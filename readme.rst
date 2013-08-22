@@ -1,14 +1,11 @@
 ###################
-What is CodeIgniter
+What is AppIgniter
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+AppIgniter is a `CodeIgniter<http://ellislab.com/codeigniter>`_-based (version 2.1.3) Web application 
+framework specialized for rapid application development. Its frontend is built over 
+`Twitter Bootstrap<http://twitter.github.com/bootstrap/>`_ (2.3.1), and some
+interactions use `jQuery-UI<http://jqueryui.com>`_ components.
 
 *******************
 Release Information
@@ -23,7 +20,7 @@ Changelog and New Features
 **************************
 
 You can find a list of all changes for each release in the `user
-guide change log <https://github.com/EllisLab/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+guide change log <https://github.com/acwilan/AppIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
 
 *******************
 Server Requirements
@@ -35,28 +32,18 @@ Server Requirements
 Installation
 ************
 
-Please see the `installation section <http://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
 
 *******
 License
 *******
 
-Please see the `license
-agreement <http://codeigniter.com/user_guide/license.html>`_
 
 *********
 Resources
 *********
 
--  `User Guide <http://codeigniter.com/user_guide/>`_
--  `Community Forums <http://codeigniter.com/forums/>`_
--  `Community Wiki <http://codeigniter.com/wiki/>`_
--  `Community IRC <http://ellislab.com/codeigniter/irc>`_
 
 ***************
 Acknowledgement
 ***************
 
-The EllisLab team and The Reactor Engineers would like to thank all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
