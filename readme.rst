@@ -2,10 +2,10 @@
 What is AppIgniter
 ###################
 
-AppIgniter is a `CodeIgniter<http://ellislab.com/codeigniter>`_-based (version 2.1.3) Web application 
+AppIgniter is a `CodeIgniter <http://ellislab.com/codeigniter>`_-based (version 2.1.3) Web application 
 framework specialized for rapid application development. Its frontend is built over 
-`Twitter Bootstrap<http://twitter.github.com/bootstrap/>`_ (2.3.1), and some
-interactions use `jQuery-UI<http://jqueryui.com>`_ components.
+`Twitter Bootstrap <http://twitter.github.com/bootstrap/>`_ (2.3.1), and some
+interactions use `jQuery-UI <http://jqueryui.com>`_ components.
 
 *******************
 Release Information
