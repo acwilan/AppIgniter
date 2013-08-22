@@ -141,7 +141,6 @@ class Crud_Controller extends MY_Controller {
 				'primary_key'=>$this->primary_key,
 				'catalog_state'=>$this->catalog_state,
 				'user_info'=>$this->user_info,
-				'current_period'=>$this->current_period,
 			));
 	
 		$this->_show_footer();
@@ -228,7 +227,6 @@ class Crud_Controller extends MY_Controller {
 				'primary_key'=>$this->primary_key,
 				'catalog_state'=>$this->catalog_state,
 				'user_info'=>$this->user_info,
-				'current_period'=>$this->current_period,
 		));
 	}
 	
@@ -567,8 +565,8 @@ class Crud_Controller extends MY_Controller {
 		}
 		if (is_array($fields)) {
 			foreach ($fields as $field) {
-				if ($field->type == 'money' && !isset($field->symbol) && isset($this->current_period->simbolo)) {
-					$field->symbol = $this->current_period->simbolo;
+				if ($field->type == 'money' && !isset($field->symbol)) {
+					//$field->symbol = $this->current_period->simbolo;
 				}
 			}
 		}
