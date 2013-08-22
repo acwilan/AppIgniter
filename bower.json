@@ -1,0 +1,27 @@
+{
+    "name": "AppIgniter",
+    "version": "0.0.1",
+    "homepage": "https://github.com/acwilan/AppIgniter",
+    "authors": [
+        "Andres Rovira <andres.rovira@gmail.com>"
+    ],
+    "description": "Boilerplate for CI apps",
+    "main": "phpsrc/index.php",
+    "keywords": [
+        "codeigniter",
+        "php"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "devDependencies": {
+        "bootstrap": "~3.0.0",
+        "jquery": "~2.0.3",
+        "jquery-ui": "~1.10.3"
+    }
+}

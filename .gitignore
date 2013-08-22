@@ -1,9 +1,13 @@
 .DS_Store
 
-cache/*
-!cache/index.html
-!cache/.htaccess
+phpsrc/cache/*
+!phpsrc/cache/index.html
+!phpsrc/cache/.htaccess
 
-logs/*
-!logs/index.html
-!logs/.htaccess
+phpsrc/logs/*
+!phpsrc/logs/index.html
+!phpsrc/logs/.htaccess
+
+bower_components/*
+node_modules/*
+vendor/*
